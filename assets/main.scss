@@ -1,0 +1,15 @@
+// RFS config
+$rfs-base-value: 1rem;
+$rfs-factor: 8;
+
+.container {
+  padding: rfs(1rem);
+}
+
+.title {
+  font-size: rfs(4rem);
+}
+
+.intro {
+  font-size: rfs(1.5rem);
+}
