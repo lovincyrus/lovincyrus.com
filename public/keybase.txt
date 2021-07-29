@@ -1,0 +1,81 @@
+==================================================================
+https://keybase.io/lovincyrus
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://www.lovincyrus.com
+  * I am lovincyrus (https://keybase.io/lovincyrus) on keybase.
+  * I have a public key with fingerprint 422D 07F2 4168 3E09 18FD  AE64 0937 27A8 5758 DAD4
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01019cd61397a174c13054c9a034a3956fd821b06bfc5aad1144247559dbce7debf80a",
+      "fingerprint": "422d07f241683e0918fdae64093727a85758dad4",
+      "host": "keybase.io",
+      "key_id": "093727a85758dad4",
+      "kid": "01019cd61397a174c13054c9a034a3956fd821b06bfc5aad1144247559dbce7debf80a",
+      "uid": "e09b7535b6b62ed62ab8dafd40ac8519",
+      "username": "lovincyrus"
+    },
+    "merkle_root": {
+      "ctime": 1571449978,
+      "hash_meta": "7ef74c70c486cf42bd75e432083cb1dfb5bd0d0c2a365f0a8544ab1109514212",
+      "seqno": 8233508
+    },
+    "revoke": {
+      "sig_ids": [
+        "365e9d4e35112628d9c3123251511404054ce4972ab6fd8ce3d02a75f597f4450f"
+      ]
+    },
+    "service": {
+      "hostname": "www.lovincyrus.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1571449978,
+  "expire_in": 157680000,
+  "prev": "b14cde6f4618cd69ec37e98fe977adaf9e637634773d2822035f5a8c82550ac7",
+  "seqno": 39,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.1.3
+Comment: https://keybase.io/crypto
+
+yMLCAnicrVNtiBVVGL53dzPvglDirn1IxfzIFL2ezzlzroSkSChYkJQurVzPnHPm
+7nA/5joze9fbulIEWoHUYsFSRGylwsYS1KXgFrVuH7gaYWQaYR+2Kctiba2QUlCd
+uRn+qJ/Nn2HeeZ+P93nP+XBRe6oz/cNc/UDHpYnL6ROTe/tTO8ZKjwxabqDqVm7Q
+KurWS5eUjuJ80VdWzgIQQC6VDTFnAjIiIQaUSC4AJgJzanvKQdAFtutJKoSCkBBE
+GKVcuVIzpV3PAcJaZXl+paDDauhXYkNLEFKAeYhA28EacOh4SmibAI4ZYsKhjDpK
+KGKAfUGUIIw5V0Q66wemZj7yf9v7d///7Lu/RWcsuoxi6tqujbSykXCNnqcIENKh
+kCeNkQ4roqxNdymo+RVZD/sja2iVVdZhsaTzYRDESbwy9pMmSJmR5Jw5ZkQR9eXL
+OhYGy7Rn3DIgiWNLjyBXMaoJRsDB0oXKc6mrgAISCWxTD5jRCREuhIBTSBBExkmk
+d1UCK+cgjClwjINQ14KiTsQjv2CCi6zcw5aBa66IxhRCZCNHcYkhwohCUyCAJHFp
+wpkZNQlLaqwAEox6lDOPEAo8a8dQIhbWfNkiTzZ1NYGBgYHstRSyMigbX9UwiAMZ
+lMz/vjiuRrkknbhebQG0m79KlXf9ijKnxSBqOoz8oGLSMp3/EZzeXfVDnfcrrbLt
+APMkOrpmKF1IpNK2R2zomJPAtcRMc8fTnDFhlse1jZmNCWNYIQchgM1swpEOotSs
+lV1LEnPjUxQMp8mvIuL+UFtDkxO9Hal0Z2rBdW3JNUp1Zm7453Lt2rkwdWR+z/yV
+Z779bH7k/ZHTx7NjZ0cygy8sm5s7ub688Oe20enfmj/dtnv5uolNr23ZtPUc6Lpw
++tzMgT+vLLnj6U+Ge9e339fd3Uj33HT+7OwHS59aeX7qzcZJtbi5Zn9j3eAtj/bO
+PLbh0P5s4dipi89mppc0No81l21ZnbOf/+69b3bev3V5tvD7hu7p2Us3LiWrz8A3
+eh7qmh5455Vo+I/snTMTP3Z8fs+D812HSm3bPp1MH1GbG51fbHt98dftrx4e3rsx
+9/1X+15ee+sToyemZn8ZubAiU799++W3V9z9a3n0rczxNRePPvfi418e/eilg/um
+Nu75uHjzA6feHb+ro5kZx9c/GY8fW3twgV7UPHNvrucvpWSJmw==
+=RkBp
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/lovincyrus
+
+==================================================================
