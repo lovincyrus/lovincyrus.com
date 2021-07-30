@@ -1,0 +1,74 @@
+html {
+  font-family: 'Inter', -system-ui, system-ui, sans-serif;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+
+  -webkit-overflow-scrolling: touch;
+  scroll-behavior: smooth;
+
+  font-kerning: normal;
+  -webkit-font-kerning: normal;
+  -ms-font-kerning: normal;
+  -moz-font-kerning: normal;
+  -o-font-kerning: normal;
+
+  font-variant-ligatures: contextual common-ligatures;
+  -webkit-font-variant-ligatures: contextual common-ligatures;
+  -ms-font-variant-ligatures: contextual common-ligatures;
+  -moz-font-variant-ligatures: contextual common-ligatures;
+  -o-font-variant-ligatures: contextual common-ligatures;
+
+  /* required to work around letter-spacing bug in Chrome: */
+  font-feature-settings: 'kern' 1, 'liga' 1, 'calt' 1;
+}
+
+@supports (font-variation-settings: normal) {
+  html {
+    font-family: 'Inter var', -system-ui, system-ui, sans-serif;
+  }
+}
+
+body {
+  background-color: var(--bg-color);
+  -webkit-overflow-scrolling: touch;
+  scroll-behavior: smooth;
+  // overflow-x: hidden;
+  // margin: 0;
+}
+
+.cover {
+  border-radius: 0.375rem;
+}
+
+.text {
+  grid-column: 2 / span 4;
+}
+
+.list {
+  margin-top: 6rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.list > a {
+  font-size: rfs(1.5rem);
+  cursor: pointer;
+  width: fit-content;
+  color: var(--text-color);
+}
+
+h1 {
+  font-size: rfs(2rem);
+  color: var(--text-color);
+}
+
+.strike {
+  text-decoration: line-through !important;
+}
+
+.disabled {
+  cursor: not-allowed !important;
+  pointer-events: none !important;
+  user-select: none !important;
+}

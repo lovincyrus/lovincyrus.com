@@ -3,12 +3,12 @@ import ExternalLink from '@/components/ExternalLink'
 
 function HomePage() {
   return (
-    <div className="container">
+    <div className="tbd-section container">
       <h1 className="title">Hello, I'm Cyrus</h1>
       <div className="list">
-        <ExternalLink href="https://cosmos.network">
-          <a>What I'm up to</a>
-        </ExternalLink>
+        <Link href="#">
+          <a className="strike">What I'm up to</a>
+        </Link>
         <Link href="/about">
           <a>About</a>
         </Link>

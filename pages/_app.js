@@ -1,6 +1,5 @@
 import { useAnalytics } from '@/lib/analytics'
-import '@/assets/globals.scss'
-import '@/assets/main.scss'
+import '@/assets/index.scss'
 
 export default function MyApp({ Component, pageProps }) {
   useAnalytics()

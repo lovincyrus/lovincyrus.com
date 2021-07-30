@@ -1,0 +1,75 @@
+:root {
+  --wrap-gap: 2rem;
+}
+
+.container {
+  max-width: 90rem;
+  margin: auto;
+  padding: rfs(2rem);
+
+  @media screen and (min-width: 20rem) {
+    .container {
+      margin: 8rem 5rem;
+    }
+  }
+}
+
+.tbd-section {
+  position: relative;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+
+.tbd-container {
+  position: relative;
+  max-width: 32rem;
+  margin: 0 auto;
+}
+
+.tbd-wrapper {
+  padding-left: var(--wrap-gap);
+  padding-right: var(--wrap-gap);
+}
+
+@media screen and (min-width: 20rem) {
+  :root {
+    --grid-gap: 2rem;
+  }
+
+  .tbd-wrapper {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (min-width: 48rem) {
+  :root {
+    --wrap-gap: 3rem;
+  }
+
+  .tbd-wrapper {
+    padding-left: var(--wrap-gap);
+    padding-right: var(--wrap-gap);
+  }
+}
+
+@media screen and (min-width: 62rem) {
+  :root {
+    --wrap-gap: 4rem;
+  }
+
+  .tbd-wrapper {
+    padding-left: var(--wrap-gap);
+    padding-right: var(--wrap-gap);
+  }
+}
+
+@media screen and (min-width: 75rem) {
+  :root {
+    --wrap-gap: 6rem;
+  }
+
+  .tbd-wrapper {
+    padding-left: var(--wrap-gap);
+    padding-right: var(--wrap-gap);
+  }
+}

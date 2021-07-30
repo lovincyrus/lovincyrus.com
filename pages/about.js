@@ -1,17 +1,17 @@
 import Image from 'next/image'
 import Container from '@/components/Container'
-import ExternalLink from '@/components/ExternalLink'
 
 export default function About() {
   return (
     <Container title="About">
-      <div className="container">
+      <div className="tbd-section tbd-container container">
         <Image
-          src="/static/img/issa-shmood.jpg"
+          src="/static/img/issa-shmood.jpeg"
           alt="Issa Shmood"
           layout="responsive"
-          width="500"
-          height="380"
+          width="475"
+          height="375"
+          className="cover"
         />
         {/* <p>
           I'm Cyrus Goh—a developer currently building user-interfaces on web at
