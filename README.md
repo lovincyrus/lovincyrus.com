@@ -1,4 +1,10 @@
-# Personal website 🔥
+# Personal website
 
-### Good O' Times
-[https://github.com/lovincyrus/lovincyrus.github.io](https://github.com/lovincyrus/lovincyrus.github.io)
+The source code of [lovincyrus.com](https://www.lovincyrus.com)
+
+## Usage
+
+```
+$ yarn
+$ yarn dev
+```

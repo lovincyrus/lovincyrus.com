@@ -1,0 +1,26 @@
+a {
+  text-decoration: none;
+  transition: color 0.15s ease-in-out;
+
+  &:hover {
+    transition: color 0.15s ease-in-out;
+  }
+
+  &:active {
+    transition: color 0.15s ease-in-out;
+  }
+
+  &:focus {
+    transition: color 0.15s ease-in-out;
+    outline: 1px dotted currentColor;
+  }
+
+  &:link,
+  &:visited {
+    transition: color 0.15s ease-in;
+  }
+}
+
+a[href^='#']:hover {
+  text-decoration-style: dashed;
+}
