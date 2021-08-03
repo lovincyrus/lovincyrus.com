@@ -35,7 +35,7 @@ export default function About() {
   useEffect(() => {
     setTimeout(() => {
       setCopied(false)
-    }, 2500)
+    }, 3000)
   }, [copied])
 
   return (

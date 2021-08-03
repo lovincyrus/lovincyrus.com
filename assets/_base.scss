@@ -1,5 +1,5 @@
 html {
-  font-family: 'Inter', -system-ui, system-ui, sans-serif;
+  font-family: var(--font-family-sans-serif);
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
 
@@ -24,7 +24,7 @@ html {
 
 @supports (font-variation-settings: normal) {
   html {
-    font-family: 'Inter var', -system-ui, system-ui, sans-serif;
+    font-family: var(--font-family-sans-serif-var);
   }
 }
 
@@ -99,10 +99,6 @@ h1 {
   z-index: 10;
   top: 0;
   transition: background-color 0.1 ease-in-out;
-}
-
-.circle {
-  cursor: pointer;
 }
 
 .projects {

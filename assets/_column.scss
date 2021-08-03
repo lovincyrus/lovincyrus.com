@@ -2,26 +2,26 @@
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   gap: calc(var(--unit) * 4);
+
+  @include sm {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @include lg {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
 
 .cols-2 {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   gap: calc(var(--unit) * 6);
-}
 
-@media screen and (min-width: 48rem) {
-  .cols-3 {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-
-@media screen and (min-width: 62rem) {
-  .cols-2 {
+  @include md {
     grid-template-columns: repeat(2, 1fr);
   }
 
-  .cols-3 {
-    grid-template-columns: repeat(3, 1fr);
+  @include lg {
+    grid-template-columns: repeat(2, 1fr);
   }
 }

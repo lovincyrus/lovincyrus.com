@@ -3,7 +3,7 @@
   margin: auto;
   padding: rfs(2rem);
 
-  @media screen and (min-width: 20rem) {
+  @media screen and (min-width: 320px) {
     .container {
       margin: 8rem 5rem;
     }
@@ -27,17 +27,7 @@
   padding-right: var(--wrap-gap);
 }
 
-@media screen and (min-width: 20rem) {
-  :root {
-    --grid-gap: 2rem;
-  }
-
-  .tbd-wrapper {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-
-@media screen and (min-width: 48rem) {
+@media md {
   :root {
     --wrap-gap: 3rem;
   }
@@ -48,7 +38,7 @@
   }
 }
 
-@media screen and (min-width: 62rem) {
+@media lg {
   :root {
     --wrap-gap: 4rem;
   }
@@ -59,7 +49,7 @@
   }
 }
 
-@media screen and (min-width: 75rem) {
+@media xl {
   :root {
     --wrap-gap: 6rem;
   }

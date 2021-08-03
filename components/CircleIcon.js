@@ -10,6 +10,7 @@ export default function CircleIcon() {
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
         className="circle"
+        style={{ cursor: 'pointer' }}
       >
         <path
           d="M14 25.6667C20.4433 25.6667 25.6667 20.4433 25.6667 14C25.6667 7.55668 20.4433 2.33333 14 2.33333C7.55669 2.33333 2.33334 7.55668 2.33334 14C2.33334 20.4433 7.55669 25.6667 14 25.6667Z"

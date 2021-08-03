@@ -2,36 +2,36 @@
   --grid-gap: 1rem;
 }
 
-.grid-container {
+.grid-base {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 0 var(--grid-gap);
 }
 
-@media screen and (min-width: 320px) {
-  .grid-container {
+@include sm {
+  .grid-base {
     grid-template-columns: repeat(2, 1fr);
   }
 }
 
-@media screen and (min-width: 768px) {
-  .grid-container {
+@include md {
+  .grid-base {
     grid-template-columns: repeat(4, 1fr);
   }
 }
 
-@media screen and (min-width: 992px) {
+@include lg {
   :root {
     --grid-gap: 2rem;
   }
 
-  .grid-container {
+  .grid-base {
     grid-template-columns: repeat(8, 1fr);
   }
 }
 
-@media screen and (min-width: 1200px) {
-  .grid-container {
+@include xl {
+  .grid-base {
     grid-template-columns: repeat(12, 1fr);
   }
 }
