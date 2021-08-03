@@ -25,4 +25,16 @@
   --wrap-gap: 2rem;
 
   --transition-swhoosh: cubic-bezier(0.19, 1, 0.22, 1) 1s;
+
+  @include md {
+    --wrap-gap: 3rem;
+  }
+
+  @include lg {
+    --wrap-gap: 4rem;
+  }
+
+  @include xl {
+    --wrap-gap: 6rem;
+  }
 }

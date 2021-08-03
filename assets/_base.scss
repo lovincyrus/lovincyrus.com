@@ -83,22 +83,11 @@ h1 {
   color: var(--text-color);
 }
 
-.info {
-  color: var(--text-color);
-}
-
 .sr-only {
   position: absolute;
   height: 1px;
   width: 1px;
   overflow: hidden;
-}
-
-.sticky-nav {
-  position: sticky;
-  z-index: 10;
-  top: 0;
-  transition: background-color 0.1 ease-in-out;
 }
 
 .projects {

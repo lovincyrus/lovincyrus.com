@@ -1,3 +1,10 @@
+/*
+
+  https://css-tricks.com/approaches-media-queries-sass/
+  https://getbootstrap.com/docs/5.0/layout/breakpoints/
+
+*/
+
 $breakpoints-xs: 0;
 $breakpoints-sm: 576px;
 $breakpoints-md: 768px;
@@ -31,6 +38,12 @@ $breakpoints-xxl: 1400px;
 
 @mixin xxl {
   @media (min-width: #{$breakpoints-xxl}) {
+    @content;
+  }
+}
+
+@mixin custom-media($screen) {
+  @media (min-width: $screen) {
     @content;
   }
 }
