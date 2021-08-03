@@ -9,11 +9,7 @@ export default function Header() {
   return (
     <nav>
       <div className="tbd-section container sticky-nav">
-        {router.asPath === '/' ? (
-          <h1 className="title">Hello, I'm Cyrus</h1>
-        ) : (
-          <CircleIcon />
-        )}
+        {router.asPath === '/' ? <h1>Hello, I'm Cyrus</h1> : <CircleIcon />}
 
         <div
           className="list"
