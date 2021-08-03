@@ -22,10 +22,6 @@ export default function Container({ children, title = null }) {
           <title>{meta.title}</title>
         )}
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-        <link
-          rel="icon"
-          href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🍍</text></svg>"
-        ></link>
         <meta content={meta.description} name="description" />
         <meta
           property="og:url"
@@ -42,7 +38,7 @@ export default function Container({ children, title = null }) {
         <meta name="twitter:description" content={meta.description} />
         <meta name="twitter:image" content={meta.image} />
       </Head>
-      {children}
+      <main>{children}</main>
     </>
   )
 }

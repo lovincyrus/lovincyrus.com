@@ -20,3 +20,7 @@ a {
     transition: color 0.15s ease-in;
   }
 }
+
+a[href^='#']:hover {
+  text-decoration-style: dashed;
+}

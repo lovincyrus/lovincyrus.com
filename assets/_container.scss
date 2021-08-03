@@ -1,9 +1,5 @@
-:root {
-  --wrap-gap: 2rem;
-}
-
 .container {
-  max-width: 90rem;
+  max-width: 75rem;
   margin: auto;
   padding: rfs(2rem);
 
@@ -16,8 +12,8 @@
 
 .tbd-section {
   position: relative;
-  padding-top: 6rem;
-  padding-bottom: 6rem;
+  padding-top: rfs(6rem);
+  padding-bottom: rfs(6rem);
 }
 
 .tbd-container {
