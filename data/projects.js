@@ -15,6 +15,11 @@ export const projects = [
     desc: 'Chrome extension that autofills job applications',
   },
   {
+    title: '⏰ Wakie Wakie',
+    url: 'https://github.com/lovincyrus/wakie-wakie',
+    desc: 'Twilio-powered alarms using Google Calendar',
+  },
+  {
     title: '❝❞ Terminal Quotes',
     url: 'https://github.com/lovincyrus/terminal-quotes',
     desc: 'Display quotes on Terminal everytime you ⌘+T, ⌘+N',
