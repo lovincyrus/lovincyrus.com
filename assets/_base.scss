@@ -69,7 +69,8 @@ p + p {
   gap: 1rem;
 }
 
-.list > a {
+.list > a,
+.copy-box > a {
   font-size: rfs(1.5rem);
   cursor: pointer;
   width: fit-content;
@@ -78,7 +79,7 @@ p + p {
 
 h1 {
   font-size: rfs(2rem);
-  font-weight: 600;
+  font-weight: var(--font-weight-bold);
   color: var(--text-color);
 }
 
@@ -100,63 +101,52 @@ h1 {
   transition: background-color 0.1 ease-in-out;
 }
 
-.cols-3 {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: var(--unit);
-}
-
 .circle {
   cursor: pointer;
 }
 
 .projects {
   font-size: rfs(2rem);
-  font-weight: 600;
+  font-weight: var(--font-weight-bold);
   line-height: 1.246609;
   letter-spacing: -0.03em;
 
-  > div > h2 > a {
+  & * > a {
     color: var(--projects-text-color) !important;
   }
 
   & p {
-    color: var(--work-text-color);
+    color: var(--color-primary-100);
   }
 }
 
 .work {
-  color: var(--work-text-color);
+  color: var(--color-primary-100);
   font-size: rfs(2.5rem);
-  font-weight: 600;
+  font-weight: var(--font-weight-bold);
   line-height: 1.27;
   letter-spacing: -0.017em;
 }
 
-.cols-3 {
-  display: grid;
-  grid-template-columns: repeat(1, 1fr);
-  gap: calc(var(--unit) * 4);
+.copy-box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1.5rem;
 }
 
-.cols-2 {
-  display: grid;
-  grid-template-columns: repeat(1, 1fr);
-  gap: calc(var(--unit) * 6);
-}
+.clipboard {
+  font-size: rfs(0.75rem);
+  cursor: auto;
+  transform: translateX(-1rem);
+  opacity: 0;
+  transition: var(--transition-swhoosh);
 
-@media screen and (min-width: 48rem) {
-  .cols-3 {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-
-@media screen and (min-width: 62rem) {
-  .cols-2 {
-    grid-template-columns: repeat(2, 1fr);
-  }
-
-  .cols-3 {
-    grid-template-columns: repeat(3, 1fr);
+  &-active {
+    font-size: rfs(0.75rem);
+    color: var(--color-primary-200);
+    cursor: auto;
+    transform: translateY(0);
+    opacity: 1;
   }
 }

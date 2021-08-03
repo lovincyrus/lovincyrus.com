@@ -1,9 +1,25 @@
 :root {
   --bg-color: #050402;
   --text-color: #faad00;
-  --work-text-color: #ffffff;
   --projects-text-color: #e44a66;
+
+  --color-primary-900: #060607;
+  --color-primary-800: #141618;
+  --color-primary-700: #23262a;
+  --color-primary-600: #2e3338;
+  --color-primary-500: #4f5660;
+  --color-primary-400: #747f8d;
+  --color-primary-300: #9099a4;
+  --color-primary-200: #c7ccd1;
+  --color-primary-150: #f6f7f8;
+  --color-primary-100: #ffffff;
+
+  --font-weight-medium: 500;
+  --font-weight-bold: 600;
+  --font-weight-black: 800;
+
   --unit: 1rem;
   --wrap-gap: 2rem;
-  --ease-in-out-quad: cubic-bezier(0.455, 0.03, 0.515, 0.955);
+
+  --transition-swhoosh: cubic-bezier(0.19, 1, 0.22, 1) 1s;
 }
