@@ -7,7 +7,7 @@ export default function Container({ children, title = null }) {
   const meta = {
     title: 'Cyrus Goh',
     description: 'Cyrus Goh is a developer and thinker based in San Francisco.',
-    image: 'https://www.lovincyrus.com/assets/og-image.png',
+    image: 'https://www.lovincyrus.com/og-image.png',
     type: 'website',
   }
 
