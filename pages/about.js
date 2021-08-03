@@ -1,9 +1,14 @@
+import { useEffect, useState } from 'react'
 import Image from 'next/image'
+import Link from 'next/link'
 import Container from '@/components/Container'
 import ExternalLink from '@/components/ExternalLink'
 import Divider from '@/components/Divider'
+import { CopyToClipboard } from 'react-copy-to-clipboard'
 
 export default function About() {
+  const [copied, setCopied] = useState(false)
+
   const shimmer = (w, h) => `
   <svg width="${w}" height="${h}" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <defs>
@@ -22,6 +27,16 @@ export default function About() {
     typeof window === 'undefined'
       ? Buffer.from(str).toString('base64')
       : window.btoa(str)
+
+  const handeClick = () => {
+    setCopied(true)
+  }
+
+  useEffect(() => {
+    setTimeout(() => {
+      setCopied(false)
+    }, 2500)
+  }, [copied])
 
   return (
     <Container title="About">
@@ -55,6 +70,18 @@ export default function About() {
           </ExternalLink>
           <ExternalLink href="https://t.me/lovincyrus">telegram</ExternalLink>
           <ExternalLink href="https://vsco.co/lovincyrus">vsco</ExternalLink>
+
+          <CopyToClipboard
+            text="&#104;&#101;&#108;&#108;&#111;&#064;&#099;&#121;&#114;&#117;&#115;&#103;&#111;&#104;&#046;&#099;&#111;&#109;"
+            onCopy={handeClick}
+          >
+            <div className="copy-box">
+              <a>email</a>
+              <p className={copied ? 'clipboard-active' : 'clipboard'}>
+                ☝️ Copied
+              </p>
+            </div>
+          </CopyToClipboard>
         </div>
         <Divider />
       </div>
