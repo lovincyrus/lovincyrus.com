@@ -1,6 +1,5 @@
 import { useRouter } from 'next/router'
 import Link from 'next/link'
-import ExternalLink from '@/components/ExternalLink'
 import CircleIcon from '@/components/CircleIcon'
 
 export default function Header() {
@@ -8,16 +7,20 @@ export default function Header() {
 
   return (
     <nav>
-      <div className="tbd-section container sticky-nav">
-        {router.asPath === '/' ? <h1>Hello, I'm Cyrus</h1> : <CircleIcon />}
+      <div className="tbd-section container">
+        {router.asPath === '/' ? (
+          <h1>Hello, I&apos;m Cyrus</h1>
+        ) : (
+          <CircleIcon />
+        )}
 
         <div
           className="list"
           style={{ marginTop: `${router.asPath === '/' ? '6rem' : '4rem'}` }}
         >
-          <ExternalLink href="https://coolection.co">
-            What I'm up to
-          </ExternalLink>
+          <Link href="/now" scroll={false}>
+            What I&apos;m up to
+          </Link>
           <Link href="/about" scroll={false}>
             <a>About</a>
           </Link>
@@ -27,6 +30,9 @@ export default function Header() {
           <Link href="/work" scroll={false}>
             <a>Work</a>
           </Link>
+          {/* <Link href="/thoughts" scroll={false}>
+            <a>Thoughts</a>
+          </Link> */}
         </div>
       </div>
     </nav>

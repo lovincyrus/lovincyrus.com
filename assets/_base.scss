@@ -79,7 +79,7 @@ p + p {
 
 h1 {
   font-size: rfs(2rem);
-  font-weight: var(--font-weight-bold);
+  font-weight: var(--font-weight-black);
   color: var(--text-color);
 }
 
@@ -105,6 +105,7 @@ h1 {
   }
 }
 
+.now,
 .work {
   color: var(--color-primary-100);
   font-size: rfs(2.5rem);
@@ -134,4 +135,8 @@ h1 {
     transform: translateY(0);
     opacity: 1;
   }
+}
+
+.reading {
+  color: var(--reading-text-color);
 }
