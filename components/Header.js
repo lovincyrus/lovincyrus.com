@@ -30,9 +30,9 @@ export default function Header() {
           <Link href="/work" scroll={false}>
             <a>Work</a>
           </Link>
-          {/* <Link href="/thoughts" scroll={false}>
-            <a>Thoughts</a>
-          </Link> */}
+          <Link href="https://blog.lovincyrus.com" scroll={false}>
+            <a>Blog</a>
+          </Link>
         </div>
       </div>
     </nav>

@@ -28,7 +28,7 @@ export default function About() {
       ? Buffer.from(str).toString('base64')
       : window.btoa(str)
 
-  const handeClick = () => {
+  const handleClick = () => {
     setCopied(true)
   }
 
@@ -73,7 +73,7 @@ export default function About() {
 
           <CopyToClipboard
             text="&#104;&#101;&#108;&#108;&#111;&#064;&#099;&#121;&#114;&#117;&#115;&#103;&#111;&#104;&#046;&#099;&#111;&#109;"
-            onCopy={handeClick}
+            onCopy={handleClick}
           >
             <div className="copy-box">
               <a>email</a>
